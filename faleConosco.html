@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Index</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="bootstrap/dist/css/bootstrap.min.css"    rel="stylesheet" type="text/css">
+        <script src="bootstrap/dist/js/bootstrap.bundle.min.js"  ></script>
+        <script defer src="fontawesome-free-5.15.4-web/js/all.js"  ></script>
+    </head>
+    <body>        
+        <nav class="navbar navbar-expand-lg " >
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">
+                <img src="img/logo.jpg" class="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link item active" aria-current="page" href="index.html" id="navColor">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link item" href="produtos.html" id="navColor">Produtos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link item" href="sobre.html" id="navColor">Quem Somos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link item" href="faleConosco.html" id="navColor">Fale Conosco</a>
+                  </li>
+                </ul>
+              </div>          
+            </div>
+        </nav>
+
+        <div class="container" id="containerFaleConosco">
+            <div class="row">
+                <h1> Entre em contato conosco.</h1>
+            </div>
+        </div>
+        <div class="container" id="card">
+            <div class="row">
+                <div class="col-md-12 col-sm-8">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email:</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Digite sua dúvida:</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button justify-content-end type="submit" class="btn btn-primary" id="item">Enviar</button>
+                </div>
+                <br>
+            </div>            
+        </div>
+
+        <div class="container" id="card">
+            <div class="row">
+                <div class="col-md-12 col-sm-6"> <br>
+                    <h1> Canais de Atendimento:</h1>                    
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col-md-3 col-sm-6" >
+                    <div class="card mb-3" id="card">
+                        <i class="fas fa-info-circle" id="icone"></i>
+                        <div class="card-body" id="cardIcone">
+                          <h5 class="card-title" id="textCard">Ajuda</h5> 
+                          <p class="card-text" id="textIcone">Precisa de ajuda? <br> <a href="#" id="textCard">Clique aqui</a>  e use nossa assistente virtual </p>
+                          <p class="card-text" id="textIcone">Horário de atendimento: Seg. à Sáb. 9h às 18h</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card mb-3" id="card">
+                        <i class="fab fa-whatsapp-square" id="icone"></i>
+                        <div class="card-body" id="cardIcone">
+                          <h5 class="card-title" id="textCard">WhatsApp</h5> <br>
+                          <p class="card-text" id="textIcone">11 90000-1111</p> <br>
+                          <p class="card-text" id="textIcone">Horário de atendimento: Seg. à Sáb. 9h às 18h</p>
+                        </div>
+                    </div>              
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="card mb-3" id="card">
+                        <i class="fas fa-envelope-square" id="icone"></i>
+                        <div class="card-body" id="cardIcone">
+                          <h5 class="card-title" id="textCard">E-Mail</h5> 
+                          <p class="card-text" id="textIcone">Possui alguma dúvida? <a href="#" id="textCard">Clique aqui</a> e nos envie um e-mail. </p>
+                          <p class="card-text" id="textIcone">Horário de atendimento: Seg. à Sáb. 9h às 18h</p>
+                        </div>
+                    </div>                   
+                </div>   
+                <div class="col-md-3 col-sm-6">
+                    <div class="card mb-3" id="card">
+                        <i class="fas fa-phone-square" id="icone"></i>
+                        <div class="card-body" id="cardIcone">
+                          <h5 class="card-title" id="textCard">Telefone</h5> <br>
+                          <p class="card-text" id="textIcone">0800 022 1212</p> <br>
+                          <p class="card-text" id="textIcone">Horário de atendimento: Seg. à Sáb. 9h às 18h</p>
+                        </div>
+                    </div>                   
+                </div>                      
+            </div>            
+        </div>
+            
+        
+        
+    </body>
+</html>
